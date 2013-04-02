@@ -1,0 +1,11 @@
+
+{% if all_price_list %}
+    <table border="1">
+    {% for price in all_price_list %}
+        <tr><td>{{ price.contract_name }}</td></tr>
+    {% endfor %}
+    </table>
+{% else %}
+    <p>No price are available.</p>
+{% endif %}
+
