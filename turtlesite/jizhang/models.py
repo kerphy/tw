@@ -11,7 +11,7 @@ class MoneyFlow(models.Model):
     change_date = models.DateTimeField('date changed', auto_now_add=True)
 
     def __unicode__(self):
-        return self.title
+        return self.title + " " + self.details
 
 
 

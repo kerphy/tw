@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 # Create your views here.
 
 from django import forms
@@ -67,3 +67,11 @@ def edit_moneyflow(request, id):
     t=get_template('jizhang/edit_moneyflow.html')
     c=RequestContext(request,locals())
     return HttpResponse(t.render(c))
+
+
+def test_moneyflow(request):
+  
+    t = get_template('jizhang/test.html')
+    c = RequestContext(request,locals())
+    return HttpResponse(t.render(c))
+
