@@ -1,26 +1,14 @@
-<!DOCTYPE html>
 
-{% load staticfiles %}
+{% extends "base.html" %}
 
+{% block title %} jizhang 记账 {% endblock %}
 
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>jizhang 记账</title>
-	<link rel="stylesheet" href="{% static 'jizhang/css/bootstrap-responsive.min.css' %}">
-	<link rel="stylesheet" href="{% static 'jizhang/css/bootstrap.min.css' %}">
-</head>
-<body>
+{% block heading %} 
+<h1> 总览 </h1>
 
-<div class="container">
-    
-<div class="row">
-  <div class="span9">
-    <h1>总览</h1>
-    <div class="row">
-      <div class="span6">
-        <h2>明细</h2>
-        
+{% endblock %}
+{% block content %} 
+<h2> 本月 </h2>
 <table>
 <thead>
     <tr>
@@ -55,26 +43,34 @@
 {% endif %}
 
 </div>
-        
-        
-        
-      </div>
-      <div class="span3">
-        <h2>汇总</h2>
-      </div>
-    </div>
-  </div>
+
+<div id="explanation">
+<h2> 月度合计 </h2>
+<table>
+<thead>
+    <tr>
+        <th>月份</th>
+        <th>收入合计</th>
+        <th>支出合计</th>
+        <th>合计</th>
+    </tr>
+</table>
 </div>
 
 
-<div class="footer">
-  <p>jizhang</p>
+<div id="content">
+<h2> 分类 </h2>
+<table>
+<thead>
+    <tr>
+        <th>衣</th>
+        <th>食</th>
+        <th>住</th>
+        <th>行</th>
+        
+    </tr>
+
+</table>
 </div>
 
-
-</div>
-
-
-</body>
-</html>
-
+{% endblock %}

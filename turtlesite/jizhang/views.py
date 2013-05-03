@@ -15,7 +15,7 @@ from forms import *
 
 def index(request):
   
-    list_items = MoneyFlow.objects.all()
+    list_items = MoneyFlow.objects.all().order_by('occured_date')
     paginator = Paginator(list_items ,10)
 
 
