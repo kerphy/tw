@@ -13,6 +13,35 @@ from django.core.urlresolvers import reverse
 from models import *
 from forms import *
 
+def index(request):
+  
+    list_items = MoneyFlow.objects.all()
+    paginator = Paginator(list_items ,10)
+
+
+    try:
+        page = int(request.GET.get('page', '1'))
+    except ValueError:
+        page = 1
+
+    try:
+        list_items = paginator.page(page)
+    except :
+        list_items = paginator.page(paginator.num_pages)
+
+    t = get_template('jizhang/index.html')
+    c = RequestContext(request,locals())
+    return HttpResponse(t.render(c))
+
+def per_month_amount_sum():
+
+    list_items = MoneyFlow.objects.all()
+    amount_sum = 0
+    for item in list_items:
+        amount_sum += item.amount
+
+    return amount_sum
+
 
 def create_moneyflow(request):
     form = MoneyFlowForm(request.POST or None)
