@@ -1,0 +1,24 @@
+
+{% if all_money_flow_list %}
+    <table border="1">
+    {% for flow in all_money_flow_list %}
+    <tr>
+        <td>{{ flow.title }}</td>
+        <td>{{ flow.amount }}</td>
+        <td>{{ flow.occured_date }}</td>
+    </tr>
+    {% endfor %}
+    </table>
+    <!--table border="1">
+    <th>
+        <td>month</td>
+        <td>total</td>
+    </th>
+    <tr>
+        <td/>
+        </tr>
+    </table-->
+{% else %}
+    <p>No money flow records!</p>
+{% endif %}
+

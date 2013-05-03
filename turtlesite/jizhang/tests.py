@@ -6,11 +6,11 @@ Replace this with more appropriate tests for your application.
 """
 
 from django.test import TestCase
-from ppb.feeds import *
 
-class HexunTest(TestCase):
-    def test_basic_get_price(self):
-        print getHexunPrice('m1305')
 
-    def test_get_price(self):
-        print getPrice('m1305')
+class SimpleTest(TestCase):
+    def test_basic_addition(self):
+        """
+        Tests that 1 + 1 always equals 2.
+        """
+        self.assertEqual(1 + 1, 2)
