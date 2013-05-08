@@ -29,6 +29,9 @@ def index(request):
     except :
         list_items = paginator.page(paginator.num_pages)
 
+    (income_sum, outcome_sum) = per_month_amount_sum()
+    print "income_sum:"+str(income_sum)+"outcome_sum:"+str(outcome_sum)+"\n";
+
     t = get_template('jizhang/index.html')
     c = RequestContext(request,locals())
     return HttpResponse(t.render(c))
@@ -36,11 +39,16 @@ def index(request):
 def per_month_amount_sum():
 
     list_items = MoneyFlow.objects.all()
-    amount_sum = 0
+    outcome_sum = 0
+    income_sum = 0
     for item in list_items:
-        amount_sum += item.amount
+        if item.is_income:
+            income_sum += item.amount
+        else:
+            outcome_sum += item.amount
 
-    return amount_sum
+
+    return (income_sum, outcome_sum)
 
 
 def create_moneyflow(request):

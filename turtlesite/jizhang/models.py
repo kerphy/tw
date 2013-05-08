@@ -3,7 +3,7 @@ from django.utils import timezone
 
 class MoneyFlow(models.Model):
     title = models.CharField(max_length=200)
-    details = models.CharField(max_length=3000)
+    details = models.CharField(max_length=3000, null=True)
     amount = models.FloatField()
     owner = models.CharField(max_length=20)
     is_income = models.BooleanField(default=False)
