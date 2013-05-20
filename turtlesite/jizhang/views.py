@@ -30,7 +30,6 @@ def index(request):
         list_items = paginator.page(paginator.num_pages)
 
     (income_sum, outcome_sum) = per_month_amount_sum()
-    print "income_sum:"+str(income_sum)+"outcome_sum:"+str(outcome_sum)+"\n";
 
     t = get_template('jizhang/index.html')
     c = RequestContext(request,locals())
