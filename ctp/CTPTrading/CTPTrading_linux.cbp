@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CTPTrading" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CTPTrading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`/usr/wxWidgets-2.8.12/build-d/wx-config  --version=2.8 --static=no --unicode=yes --debug=yes --cflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="`/usr/wxWidgets-2.8.12/build-d/wx-config  --version=2.8 --static=no --unicode=yes --debug=yes --libs`" />
+					<Add option="-lboost_thread" />
+					<Add option="-lboost_filesystem" />
+					<Add option="-lboost_date_time" />
+					<Add library="api/thostmduserapi.so" />
+					<Add library="api/thosttraderapi.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CTPTrading" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="`/usr/wxWidgets-2.8.12/build-r/wx-config  --version=2.8 --static=no --unicode=yes --debug=no --cflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="`/usr/wxWidgets-2.8.12/build-r/wx-config  --version=2.8 --static=no --unicode=yes --debug=no --libs`" />
+					<Add option="-lboost_thread" />
+					<Add option="-lboost_filesystem" />
+					<Add option="-lboost_date_time" />
+					<Add library="api/thostmduserapi.so" />
+					<Add library="api/thosttraderapi.so" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CTPTradingApp.cpp" />
+		<Unit filename="CTPTradingApp.h" />
+		<Unit filename="CTPTradingMain.cpp" />
+		<Unit filename="CTPTradingMain.h" />
+		<Unit filename="api/ThostFtdcMdApi.h" />
+		<Unit filename="api/ThostFtdcTraderApi.h" />
+		<Unit filename="api/ThostFtdcUserApiDataType.h" />
+		<Unit filename="api/ThostFtdcUserApiStruct.h" />
+		<Unit filename="include/stdafx.h" />
+		<Unit filename="include/targetver.h" />
+		<Unit filename="quote.h" />
+		<Unit filename="trade.h" />
+		<Unit filename="wxsmith/CTPTradingframe.wxs" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="CTPTradingApp.cpp" main="CTPTradingFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/CTPTradingframe.wxs" src="CTPTradingMain.cpp" hdr="CTPTradingMain.h" fwddecl="0" i18n="1" name="CTPTradingFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+			<lib_finder disable_auto="1" />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

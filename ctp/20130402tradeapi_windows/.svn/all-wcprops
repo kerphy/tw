@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows
+END
+thostmduserapi.lib
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/thostmduserapi.lib
+END
+thosttraderapi.lib
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/thosttraderapi.lib
+END
+ThostFtdcMdApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/ThostFtdcMdApi.h
+END
+error.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/error.dtd
+END
+ThostFtdcTraderApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/ThostFtdcTraderApi.h
+END
+thostmduserapi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/thostmduserapi.dll
+END
+ThostFtdcUserApiStruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/ThostFtdcUserApiStruct.h
+END
+thosttraderapi.dll
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/thosttraderapi.dll
+END
+error.xml
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/error.xml
+END
+ThostFtdcUserApiDataType.h
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/integration/!svn/ver/897/03%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83/04%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC/ASP_ZB_v5.5.6_JY_20130315/API/20130402tradeapi_windows/ThostFtdcUserApiDataType.h
+END

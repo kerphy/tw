@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="quote.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3663" topLine="96" />
+		</Cursor>
+	</File>
+	<File name="trade.h" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="228" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="FrameMain.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1831" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="api\ThostFtdcMdApi.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4374" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="api\ThostFtdcTraderApi.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14712" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="api\ThostFtdcUserApiDataType.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5878" topLine="117" />
+		</Cursor>
+	</File>
+	<File name="CTPTradingApp.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="613" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="0" />
+			<Collapse line="11" />
+		</Folding>
+	</File>
+	<File name="CTPTradingApp.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="381" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="0" />
+			<Collapse line="15" />
+		</Folding>
+	</File>
+	<File name="FrameMain.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="52897" topLine="1194" />
+		</Cursor>
+		<Folding>
+			<Collapse line="211" />
+			<Collapse line="297" />
+			<Collapse line="300" />
+			<Collapse line="308" />
+			<Collapse line="338" />
+			<Collapse line="350" />
+			<Collapse line="430" />
+			<Collapse line="435" />
+		</Folding>
+	</File>
+	<File name="api\ThostFtdcUserApiStruct.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34662" topLine="886" />
+		</Cursor>
+		<Folding>
+			<Collapse line="602" />
+		</Folding>
+	</File>
+	<File name="include\stdafx.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="580" topLine="1" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

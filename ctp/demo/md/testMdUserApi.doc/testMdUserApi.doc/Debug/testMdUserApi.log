@@ -1,0 +1,25 @@
+﻿生成启动时间为 2013/5/25 23:23:39。
+     1>项目“D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\testMdUserApi.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\ThostTraderApi\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MdSpi.cpp testMdApi.cpp
+         MdSpi.cpp
+         正在生成代码...
+         正在编译...
+         testMdApi.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\bin\testMdUserApi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\bin\testMdUserApi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\bin\testMdUserApi.lib" /MACHINE:X86 /SAFESEH Debug\MdSpi.obj
+         Debug\stdafx.obj
+         Debug\testMdApi.obj
+         ThostTraderApi\thostmduserapi.lib
+     1>MdSpi.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         testMdUserApi.vcxproj -> D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\bin\testMdUserApi.exe
+       PostBuildEvent:
+         copy .\ThostTraderApi\thostMduserapi.dll .\bin\
+         :VCEnd
+                 1 file(s) copied.
+     1>已完成生成项目“D:\bj\ctp\上期技术CTP接口示例源码，可以根据这个示例开发自己的交易平台\行情开发实例\testMdUserApi.doc\testMdUserApi.doc\testMdUserApi.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.82
